@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>jkdfas</title>
-	<link rel="stylesheet" type="text/css" href="">
+	<!--<title>jkdfas</title>-->
+    <title>Registration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--<link rel="stylesheet" type="text/css" href="">-->
 </head>
 <body>
 	<div class="login-box">
  		<img  class="avatar" src="images\Avatar-PNG-Download-Image.png">
  		<h1> Register Here</h1>
- 		<form>
- 			<p>UserName</p>
- 			<input type="text" name="username" placeholder="enter username">
+ 		<form class="form-horizontal">
+             <div class="form-group">
+                <label for="user" class="col-sm-3">UserName</label>
+                <input type="text" class="col-sm-4"name="username" id="user" placeholder="Enter your username">
+             </div>   
+             <div class="form-group">
+                <label for="pass" class="col-sm-3">Password</label>
+                <input type="Password" class="col-sm-4" name="password" id="pass" placeholder="Enter password">
+             </div>
+             <div class="form-group">
+                <input type="submit" class="col-sm-3" style="margin-left:auto;" name="submit" value="submit" placeholder="Submit">
+             </div>
+ 			<!--<p>UserName</p>
+ 			<input type="text" name="username" id="user" placeholder="enter username">
  			<p>Password</p>
  			<input type="Password" name="password" placeholder="enter password">
  			<input type="submit" name="submit" value="submit">
- 			<a href="#" class="forget">click here to login</a>
+ 			<a href="#" class="forget">click here to login</a>-->
  		</form>
  	</div>
 
